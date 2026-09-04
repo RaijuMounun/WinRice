@@ -1,5 +1,7 @@
 pub mod file_manager;
 pub mod template_engine;
+pub mod state;
+pub mod commands;
 
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
